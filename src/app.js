@@ -6,6 +6,8 @@ const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
+const characterRouter = require('./characters/character-router');
+const noteRouter = require('./notes/notes-router');
 
 const app = express();
 
@@ -31,5 +33,8 @@ app.use(function errorHandler(error, req, res, next){
 app.get('/', (req, res)=>{
   res.send('Hello boilerplate!');
 });
+
+app.use(characterRouter);
+app.use(noteRouter);
 
 module.exports = app;
