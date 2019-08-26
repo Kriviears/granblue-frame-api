@@ -3,13 +3,12 @@
 const express = require('express');
 const uuid = require('uuid/v4');
 const logger = require('../logger');
-const { notes } = require('../data');
 
 const notesRouter = express.Router();
 const bodyParser = express.json();
 
 notesRouter
-  .route('/notes')
+  .route('/')
   .get((req, res)=>{
     res.json(notes);
   })
@@ -44,7 +43,7 @@ notesRouter
   });
 
 notesRouter
-  .route('/notes/:id')
+  .route('/:id')
   .get((req, res)=>{
     const { id } = req.params;
     const note = notes.find(n=> n.id == id);
