@@ -33,12 +33,14 @@ app.use(function errorHandler(error, req, res, next){
 });
 
 app.get('/', (req, res)=>{
-  res.send('Hello boilerplate!');
+  res.send('Embrace frames');
 });
 
 app.use('/api/moves', movesRouter);
 app.use('/api/characters', characterRouter);
 app.use('/api/notes', noteRouter);
+//app.use('/api/info', infoRouter);
+//app.use('/api/users', usersRouter);
 
 
 module.exports = app;
