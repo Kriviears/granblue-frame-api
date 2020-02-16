@@ -1,5 +1,6 @@
 TRUNCATE
   notes,
+  info,
   moves,
   users,
   characters,

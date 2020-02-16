@@ -1,20 +1,17 @@
 /* eslint-disable strict */
 const MovesService = {
-  getAllMoves(db, id){
+  getAllMoves(db, id) {
     return db('moves')
-      .select(
-        '*'
-      )
+      .select('*')
       .where('character_id', id);
   },
 
-  whosMoves(db, name){
+  whosMoves(db, name) {
     return db('characters AS char')
       .select('char.id')
       .where('char.name', name)
       .first();
   }
 };
-
 
 module.exports = MovesService;

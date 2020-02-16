@@ -8,9 +8,27 @@ TRUNCATE
 
 INSERT INTO characters (name, thumbnail, banner)
 VALUES
-  ('Haomaru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Hoahmaru/thumbnail.png', 'Haomaru thumbnail'),
-  ('Nakoruru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Nakoruru/thumbnail.png', 'Nakoruru thumbnail'),
-  ('Jin', '', '');
+  ('Haomaru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Hoahmaru/thumbnail.png', 'Haomaru Banner'),
+  ('Nakoruru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Nakoruru/thumbnail.png', 'Nakoruru Banner'),
+  ('Charlotte', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Charlotte/thumbnail.png', 'Charlotte Banner'),
+  ('Basara','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Basara/thumbnail.png','Basara Banner'),
+  ('Darli Dagger','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Darli%20Dagger/thumbnail.png','Darli Banner'),
+  ('Earthquake','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Earthquake/thumbnail.png','Earthquake Banner'),
+  ('Galford','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Galford/thumbnail.png','Galford Banner'),
+  ('Genjuro','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Genjuro/thumbnail.png','Genjuro Banner'),
+  ('Hanzo','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Hanzo/thumbnail.png','Hanzo Banner'),
+  ('Jubei','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Jubei/thumbnail.png','Jubei Banner'),
+  ('Kazuki','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Kazuki/thumbnail.png','Kazuki Banner'),
+  ('Kyoshiro','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Kyoshiro/thumbnail.png','Kyoshiro Banner'),
+  ('Rimururu','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Rimururu/thumbnail.png','Rimururu Banner'),
+  ('Shiki','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Shiki/thumbnail.png','Shiki Banner'),
+  ('Shizumaru','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Shizumaru/thumbnail.png','Shizumaru Banner'),
+  ('Tam Tam','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Tam%20Tam/thumbnail.png','TamTam Banner'),
+  ('Ukyo','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Ukyo/thumbnail.png','Ukyo Banner'),
+  ('Wan-fu','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Wan-fu/thumbnail.png','Wanfu Banner'),
+  ('Wu Ruixiang','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Wu-Ruixiang/thumbnail.png','Wu Banner'),
+  ('Yashamaru','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Yashamaru/thumbnail.png','Yashamaru'),
+  ('Yoshitora','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Yoshitora/thumbnail.png','Yoshitora Banner');
 
 INSERT INTO moves (character_id, command, startUp, onBlock, onHit, recovery, cancel, super_cancel, properties, damage, attribute, special)
 VALUES
