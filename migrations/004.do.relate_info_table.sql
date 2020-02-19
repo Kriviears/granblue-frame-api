@@ -1,2 +1,0 @@
-ALTER TABLE info
-    ADD COLUMN character_id INTEGER REFERENCES characters(id) ON DELETE SET NULL;

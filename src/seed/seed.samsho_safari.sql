@@ -1,6 +1,7 @@
 BEGIN;
 
 TRUNCATE
+  info,
   notes,
   moves,
   users,

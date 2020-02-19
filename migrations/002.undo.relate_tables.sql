@@ -1,5 +1,8 @@
 ALTER TABLE moves
     DROP COLUMN IF EXISTS character_id;
+
+ALTER TABLE info
+    DROP COLUMN IF EXISTS character_id;
     
 ALTER TABLE notes
     DROP COLUMN IF EXISTS character_id;
