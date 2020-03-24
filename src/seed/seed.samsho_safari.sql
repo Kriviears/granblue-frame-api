@@ -9,27 +9,20 @@ TRUNCATE
 
 INSERT INTO characters (name, thumbnail, banner)
 VALUES
-  ('Haomaru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Hoahmaru/thumbnail.png', 'Haomaru Banner'),
-  ('Nakoruru', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Nakoruru/thumbnail.png', 'Nakoruru Banner'),
-  ('Charlotte', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Charlotte/thumbnail.png', 'Charlotte Banner'),
-  ('Basara','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Basara/thumbnail.png','Basara Banner'),
-  ('Darli Dagger','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Darli%20Dagger/thumbnail.png','Darli Banner'),
-  ('Earthquake','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Earthquake/thumbnail.png','Earthquake Banner'),
-  ('Galford','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Galford/thumbnail.png','Galford Banner'),
-  ('Genjuro','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Genjuro/thumbnail.png','Genjuro Banner'),
-  ('Hanzo','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Hanzo/thumbnail.png','Hanzo Banner'),
-  ('Jubei','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Jubei/thumbnail.png','Jubei Banner'),
-  ('Kazuki','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Kazuki/thumbnail.png','Kazuki Banner'),
-  ('Kyoshiro','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Kyoshiro/thumbnail.png','Kyoshiro Banner'),
-  ('Rimururu','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Rimururu/thumbnail.png','Rimururu Banner'),
-  ('Shiki','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Shiki/thumbnail.png','Shiki Banner'),
-  ('Shizumaru','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Shizumaru/thumbnail.png','Shizumaru Banner'),
-  ('Tam Tam','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Tam%20Tam/thumbnail.png','TamTam Banner'),
-  ('Ukyo','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Ukyo/thumbnail.png','Ukyo Banner'),
-  ('Wan-fu','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Wan-fu/thumbnail.png','Wanfu Banner'),
-  ('Wu Ruixiang','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Wu-Ruixiang/thumbnail.png','Wu Banner'),
-  ('Yashamaru','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Yashamaru/thumbnail.png','Yashamaru'),
-  ('Yoshitora','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/samurai-sho/Yoshitora/thumbnail.png','Yoshitora Banner');
+  ('Gran', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/gran/gran.jpg', 'Gran Banner'),
+  ('Katalina', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/katalina/katalina.jpg', 'Katalina Banner'),
+  ('Charlotta', 'https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/charlotta/charlotta.jpg', 'Charlotta Banner'),
+  ('Lancelot','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/lancelot/lancelot.jpg','Lancelot Banner'),
+  ('Percival','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/percival/percival.jpg','Percival Banner'),
+  ('Ferry','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/ferry/ferry.jpg','Ferry Banner'),
+  ('Lowain','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/lowain/lowain.jpg','Lowain Banner'),
+  ('Ladiva','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/fastiva/ladiva.jpg','Ladiva Banner'),
+  ('Metera','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/metera/metera.jpg','Metera Banner'),
+  ('Zeta','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/zeta/zeta.jpg','Zeta Banner'),
+  ('Vaseraga','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/vaseraga/vaseraga.jpg','Vaseraga Banner'),
+  ('Beelzebub','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/beelzebub/beelzebub.jpg','Beelzebub Banner'),
+  ('Narmaya','https://raw.githubusercontent.com/Kriviears/frame-data-image-storage/master/gbvs/narmaya/narmaya.jpg','Narmaya Banner'),
+  
 
 INSERT INTO moves (character_id, command, startUp, onBlock, onHit, recovery, cancel, super_cancel, properties, damage, attribute, special)
 VALUES
